@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--Color);
+}
+
+/* Box shadow effect */
+.effect {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* title & Logo */
+header .title {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+
+.logo {
+  width: 100px;
+}
+
+/* Styling the Nav bar */
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--btnColor);
+}
+
+.btnReg {
+  background: var(--mainColor);
+  color: var(--Color);
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+
+.btnReg:hover {
+  background: var(--btnColor);
+  color: var(--Color);
+}
+
+.btnLog {
+  color: var(--mainColor);
+  padding: 10px 18px;
+}
+
+.btnPort {
+  color: var(--mainColor);
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.7rem;
+  margin: 7px 30px 0;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background: var(--mainColor);
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+    cursor: pointer;
+  }
+  header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  nav {
+    background: var(--btnColor);
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+    margin: 20px;
+  }
+
+  nav ul li a:hover {
+    color: var(--Color);
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  .btnReg:hover {
+    background: var(--Color);
+    color: var(--mainColor);
+    padding: 10px 18px;
+    border-radius: 5px;
+  }
+}

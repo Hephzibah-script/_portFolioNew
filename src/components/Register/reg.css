@@ -1,0 +1,40 @@
+/* Rgister & LoginForm */
+h2 {
+  text-align: center;
+  margin: 12px;
+}
+
+.regForm1 {
+  margin: 10px 20%;
+  display: flex;
+  justify-content: center; /* for vertical alignment */
+  height: 86vh;
+  background-position: center;
+}
+
+.regForm {
+  border: var(--mainColor) 1px solid;
+  border-radius: 7px;
+  padding: 0px 60px;
+  width: 40%;
+}
+
+.formLabel {
+  padding: 0.25rem 0;
+  font-weight: bold;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput input {
+  padding: 12px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: none;
+  background: #e9ebec;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}

@@ -1,0 +1,12 @@
+/* Styling the search box */
+
+.searchTable {
+  margin: 35px 25%;
+}
+
+.search-box {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}

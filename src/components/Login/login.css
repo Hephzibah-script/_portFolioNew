@@ -1,0 +1,27 @@
+/* LoginForm */
+.loginSection {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center; /* for vertical alignment */
+  height: 50vh;
+  background-position: center;
+}
+
+.loginForm {
+  border: var(--mainColor) 1px solid;
+  border-radius: 7px;
+  padding: 0px 60px;
+  align-items: center;
+}
+
+.loginInput {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: none;
+  background: #e9ebec;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}
